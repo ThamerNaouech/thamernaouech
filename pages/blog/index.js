@@ -100,15 +100,7 @@ const Blog = ({ posts }) => {
                     </span>
                     {process.env.NODE_ENV === "production" && mounted && (
                       <div className="absolute top-0 right-0">
-                        <Button
-                          onClick={(e) => {
-                            deleteBlog(post.slug);
-                            e.stopPropagation();
-                          }}
-                          type={"primary"}
-                        >
-                          Delete
-                        </Button>
+                     
                       </div>
                     )}
                   </div>
@@ -118,9 +110,7 @@ const Blog = ({ posts }) => {
         </div>
         {process.env.NODE_ENV === "production" && mounted && (
           <div className="fixed bottom-6 right-6">
-            <Button onClick={createBlog} type={"primary"}>
-              Add New Post +{" "}
-            </Button>
+           
           </div>
         )}
       </>

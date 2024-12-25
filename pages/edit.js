@@ -346,12 +346,7 @@ const Edit = () => {
                 <div className="mt-10" key={project.id}>
                   <div className="flex items-center justify-between">
                     <h1 className="text-2xl">{project.title}</h1>
-                    <Button
-                      onClick={() => deleteProject(project.id)}
-                      type="primary"
-                    >
-                      Delete
-                    </Button>
+                    
                   </div>
 
                   <div className="flex items-center mt-5">
@@ -498,12 +493,7 @@ const Edit = () => {
                 <div key={social.id}>
                   <div className="flex items-center justify-between">
                     <h1 className="text-2xl">{social.title}</h1>
-                    <Button
-                      onClick={() => deleteSocials(social.id)}
-                      type="primary"
-                    >
-                      Delete
-                    </Button>
+                    
                   </div>
                   <div className="flex items-center mt-5">
                     <label className="w-1/5 text-lg opacity-50">Title</label>
@@ -582,12 +572,7 @@ const Edit = () => {
                 <div className="mt-5" key={experiences.id}>
                   <div className="flex items-center justify-between">
                     <h1 className="text-2xl">{experiences.position}</h1>
-                    <Button
-                      // onClick={() => deleteProject(project.id)}
-                      type="primary"
-                    >
-                      Delete
-                    </Button>
+                    
                   </div>
 
                   <div className="flex items-center mt-5">
