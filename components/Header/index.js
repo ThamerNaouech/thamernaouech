@@ -10,11 +10,19 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
 
   const { name, showBlog, showResume } = data;
 
   useEffect(() => {
     setMounted(true);
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return (
@@ -23,13 +31,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         {({ open }) => (
           <>
             <div className="flex items-center justify-between p-2 laptop:p-0">
-              <h1
-                onClick={() => router.push("/")}
-                className="font-medium p-2 laptop:p-0 link"
-              >
-                {name}.
-              </h1>
-
               <div className="flex items-center">
                 {data.darkMode && (
                   <Button
@@ -69,15 +70,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             >
               {!isBlog ? (
                 <div className="grid grid-cols-1">
-                  <Button onClick={handleWorkScroll}>Work</Button>
                   <Button onClick={handleAboutScroll}>About</Button>
                   {showBlog && (
-                    <Button onClick={() => router.push("/blog")}>Blog</Button>
+                    <Button onClick={() => router.push("/blog")}>Projects</Button>
                   )}
                   {showResume && (
                     <Button
                       onClick={() =>
-                        window.open("mailto:hello@chetanverma.com")
+                        window.open("mailto:t.naouech@tum.de")
                       }
                     >
                       Resume
@@ -85,7 +85,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:t.naouech@tum.de")}
                   >
                     Contact
                   </Button>
@@ -96,7 +96,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     Home
                   </Button>
                   {showBlog && (
-                    <Button onClick={() => router.push("/blog")}>Blog</Button>
+                    <Button onClick={() => router.push("/blog")}>Projects</Button>
                   )}
                   {showResume && (
                     <Button
@@ -108,7 +108,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:t.naouech@tum.de")}
                   >
                     Contact
                   </Button>
@@ -118,26 +118,37 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           </>
         )}
       </Popover>
+      
+      
+      
+     
+
+      
+      
       <div
-        className={`mt-10 hidden flex-row items-center justify-between sticky ${
-          theme === "light" && "bg-white"
-        } dark:text-white top-0 z-10 tablet:flex`}
+        className={`fixed top-0 left-0 w-full flex items-center justify-between z-10 px-40 ${ // Increased padding here
+          scrollY > 0 ? "header-gradient" : "bg-transparent"
+        } ${theme === "light" ? "text-black" : "text-white"} transition-colors duration-400`}
       >
+
+
+
+      
         <h1
           onClick={() => router.push("/")}
-          className="font-medium cursor-pointer mob:p-2 laptop:p-0"
+          className="font-medium cursor-pointer p-4"
         >
-          {name}.
+          Thamer Naouech
         </h1>
         {!isBlog ? (
-          <div className="flex">
-            <Button onClick={handleWorkScroll}>Work</Button>
-            <Button onClick={handleAboutScroll}>About</Button>
+          <div className="flex space-x-4">
+            <Button className="px-4" onClick={handleAboutScroll}>About</Button>
             {showBlog && (
-              <Button onClick={() => router.push("/blog")}>Blog</Button>
+              <Button className="px-4" onClick={() => router.push("/blog")}>Projects</Button>
             )}
             {showResume && (
               <Button
+                className="px-4"
                 onClick={() => router.push("/resume")}
                 classes="first:ml-1"
               >
@@ -145,11 +156,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button className="px-4" onClick={() => window.open("mailto:t.naouech@tum.de")}>
               Contact
             </Button>
             {mounted && theme && data.darkMode && (
               <Button
+                className="px-4"
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               >
                 <img
@@ -160,13 +172,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             )}
           </div>
         ) : (
-          <div className="flex">
-            <Button onClick={() => router.push("/")}>Home</Button>
+          <div className="flex space-x-4">
+            <Button className="px-4" onClick={() => router.push("/")}>Home</Button>
             {showBlog && (
-              <Button onClick={() => router.push("/blog")}>Blog</Button>
+              <Button className="px-4" onClick={() => router.push("/blog")}>Projects</Button>
             )}
             {showResume && (
               <Button
+                className="px-4"
                 onClick={() => router.push("/resume")}
                 classes="first:ml-1"
               >
@@ -174,12 +187,13 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button className="px-4" onClick={() => window.open("mailto:t.naouech@tum.de")}>
               Contact
             </Button>
 
             {mounted && theme && data.darkMode && (
               <Button
+                className="px-4"
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               >
                 <img

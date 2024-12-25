@@ -78,7 +78,7 @@ const Blog = ({ posts }) => {
               ref={text}
               className="mx-auto mob:p-2 text-bold text-6xl laptop:text-8xl w-full"
             >
-              Blog.
+              Projects.
             </h1>
             <div className="mt-10 grid grid-cols-1 mob:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 justify-between gap-10">
               {posts &&
@@ -98,7 +98,7 @@ const Blog = ({ posts }) => {
                     <span className="text-sm mt-5 opacity-25">
                       {ISOToDate(post.date)}
                     </span>
-                    {process.env.NODE_ENV === "development" && mounted && (
+                    {process.env.NODE_ENV === "production" && mounted && (
                       <div className="absolute top-0 right-0">
                         <Button
                           onClick={(e) => {
@@ -116,7 +116,7 @@ const Blog = ({ posts }) => {
             </div>
           </div>
         </div>
-        {process.env.NODE_ENV === "development" && mounted && (
+        {process.env.NODE_ENV === "production" && mounted && (
           <div className="fixed bottom-6 right-6">
             <Button onClick={createBlog} type={"primary"}>
               Add New Post +{" "}

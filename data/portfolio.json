@@ -1,1 +1,113 @@
-{"name":"Chetan","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Chetan Verma - curious","headerTaglineThree":"designer and devloper","headerTaglineFour":" based in New Delhi, India.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/chetanverma16"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chetanverma7/"},{"id":"3","title":"Twitter","link":"https://twitter.com/realchetanverma"},{"id":"4","title":"Blog","link":"https://blog.chetanverma.com/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"Project One Test","description":"Web Design","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"2","title":"Project Two","description":"Web Development","imageSrc":"https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"5","title":"Project Five","description":"Development","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"6","title":"Project Six","description":"Design & Development","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},{"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+    "name": "Thamer Naouech",
+    "headerTaglineOne": "Hello 👋",
+    "headerTaglineTwo": "I am Thamer Naouech",
+    "headerTaglineThree": "",
+    "headerTaglineFour": "",
+    "showCursor": false,
+    "showBlog": true,
+    "darkMode": false,
+    "showResume": true,
+    "socials": [
+        
+        {
+            "id": "2",
+            "title": "LinkedIn",
+            "link": "t.naouech@tum.de"
+        },
+        
+        
+        {
+            "id": "5",
+            "title": "Email",
+            "link": "mailto:t.naouech@tum.de"
+        }
+    ],
+    "projects": [
+        
+    ],
+    "services": [],
+    "aboutpara": "Hi, I’m Thamer Naouech 🚀 – an aspiring aerospace engineering student at the Technical University of Muncih, passionate about exploring the skies 🌌 and pushing the boundaries of innovation ✈️. With a curiosity-driven mindset 🤔 and a love for technology 💡, I aim to design and develop solutions that shape the future of aviation and space exploration 🌍✨.",
+    "resume": {
+        "tagline": "👋  I'm an aerospace engineering student at the Technical University of Munich",
+        "description": "I’m currently a B.Sc. Aerospace Engineering student at TUM with a deep passion for advancing technologies and exploring the wonders of science across all fields. Fascinated by innovation, I thrive on creating solutions that push boundaries and shape the future of aerospace and beyond.",
+        
+        "education": [
+            {"id": "1",
+            "universityName": "Technical University of Munich",
+            "universityDegree": "Bachelor of Science in Aerospace Engineering",
+            "universityDate": "Munich, Germany | October 2022 - Present ",
+            "GPA": "1,3 so far (German Grade System)",
+            "universityPara1": "Coursework: Engineering Mechanics, Multi-variable Calculus, Differential Equations, CAD, Thermodynamics, Fluid Mechanics, Control Theory, Programming, Astrophysics, Electrical Engineering."
+            },
+            {"id": "2",
+            "universityName": "IPEST-Tunis (Preparatory Institute for Scientific and Technological Studies)",
+            "universityDegree": "Engineering Preparatory Course in Mathematics, Physics and Computer Science",
+            "universityDate": " Tunis, Tunisia | September 2021 - May 2022",
+            "universityPara": "Admitted to top preparatory college for Engineering Studies in Tunisia.",
+            "GPA": "1,0 (German Grade System) (interrupted)",
+            "universityPara1": "Coursework: Real Analysis, Analytical Geometry, Probability Theory, General and Linear Algebra, Fundamentals of CS, Classical Mechanics, Fundamentals of Electrical Engineering."
+            }, 
+            {"id": "3",
+            "universityName": "Lycée Pilote de Kairouan (Elite High School of Kairouan)",
+            "universityDegree": "Baccalaureate in Mathematics & Physics",
+            "universityDate": "Kairouan, Tunisia | September 2017 - June 2021",
+            "GPA": "Graduated with Honors, GPA: 1.2 ( Ranked 13th nationally, out of 7000 Students)",
+            "universityPara1": "Coursework: Real Analysis, Analytical Geometry, Calculus I & II & III, Classical Physics, Electro-magnetism, Chemistry, Computer Science, Philosophy, English, French."
+            }
+
+        ],
+        "experiences": [
+            {
+                "id": "1",
+                "dates": "September 2023 - Present",
+                "location": "TUM, Munich - Germany",
+                "type": "Part Time",
+                "position": "Teaching Assistant",
+                "bullets": "Delivered weekly tutorials for first- and second-semester students in Math 1 and Computational Foundations 1 (wintersemester), Math 2 and Computational Foundations 2 (summer semester), for groups of 20–150 students. #   Prepared lecture summaries, created and solved exercise sheets, and supported students through live Q&A sessions. #Assisted in exam preparation and grading to ensure accurate assessment of the students’ performance."
+            }, 
+            {
+                "id": "2",
+                "dates": "October 2024 - Present",
+                "location": "Lilium GmbH, Gauting, Munich- Germany",
+                "type": "Internship",
+                "position": "Propulsion Testing Engineer",
+                "bullets": "Optimized test efficiency by automating the parameter setup for different tests in the Ballistic Impact Rig using a machine learning model, improving accuracy, and reducing preparation time by approximately 20%#Delivered and analyzed high-quality test results in multiple test campaigns, including compressor mapping, deep stall studies, and bird impact testing at engine level.#Solved instrumentation challenges by designing, manufacturing and attaching different extensions for two test rigs to optimize sensors positioning#Enhanced data collection and analysis by implementing advanced blade vibration monitoring and aerodynamic instrumentation.#Created comprehensive documentation, adhered to strict EASA-regulated processes, and maintained a creative problem-solving approach during troubleshooting of complex testing scenarios."
+            }
+        ],
+        "extracurr": [
+            {"id": "1",
+            "universityName": " Author - Prime Numbers, The Holy Grail of Mathematics",
+            "universityDegree": " ",
+            "universityDate": "October 2020",
+            "GPA": "Authored and independently published Prime Numbers, The Holy Grail of Mathematics (ISBN 9798555779014)",
+            "universityPara1": "This project aims to create a simplified and a comprehensive guide to prime numbers and their properties. The book covers the history of prime numbers, their distribution, and their applications in cryptography, number theory, and computer science."
+            },
+            
+            
+            {"id": "2",
+            "universityName": " WARR Rocketry",
+            "universityDegree": "Member of the Electronics sub-team",
+            "universityDate": "December 2022 - May 2024",
+            "universityPara": "Admitted to top preparatory college for Engineering Studies in Tunisia.",
+            "GPA": "Active member in largest student initiative @Tum, WARR Rocketry",
+            "universityPara1": "KeyResponsibilities include Design and Test of the Flight Computer systems for projects Nixus & Cryosphere (C/C++, GitLab, Embedded systems)"
+            }
+
+        ],
+        "languages": [
+            "Fluent: German, French",
+            "Native: Arabic, English"
+         
+            
+        ],
+        "frameworks": [
+            "Advanced: C/C++, Python",
+            "Intermediate : Java, SQL, Javascript, HTML."
+
+        ],
+        "others": [
+            "Ms Office, Matlab, Hyperworks, SolidWorks, Siemens Nx, Palantir Foundry, Teamcenter PLM"
+        ]
+    }
+}
